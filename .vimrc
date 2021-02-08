@@ -37,7 +37,7 @@ Plugin 'junegunn/fzf.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
-colorscheme solarized
+silent! colorscheme solarized
 filetype plugin indent on    " required
 syntax enable
 set background=dark
