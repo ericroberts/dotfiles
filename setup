@@ -4,6 +4,6 @@ mkdir -p ~/.vim/bundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cp .tmux.conf ~/.tmux.conf
 cp .vimrc ~/.vimrc
-git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf install -y
 tmux source-file ~/.tmux.conf
-vim +PluginInstall +qall
+# git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf install -y
+# vim +PluginInstall +qall
