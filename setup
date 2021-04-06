@@ -7,4 +7,4 @@ cp .vimrc ~/.vimrc
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install --completion --key-bindings --update-rc
 vim +PluginInstall +qall
-echo 'alias b="open $SPIN_INSTANCE_URL"' >> ~/.bashrc
+echo 'alias b="open $SPIN_INSTANCE_URL"' >> ~/.zshrc
