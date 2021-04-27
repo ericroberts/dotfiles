@@ -5,5 +5,5 @@ git clone https://github.com/ericroberts/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cp .tmux.conf ~/.tmux.conf
 cp .vimrc ~/.vimrc
 #.fzf/install --completion --key-bindings --update-rc
-vim +PluginInstall +qall
+#vim +PluginInstall +qall
 echo 'alias b="open $SPIN_INSTANCE_URL"' >> ~/.zshrc
