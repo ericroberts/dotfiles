@@ -18,22 +18,21 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'slim-template/vim-slim.git'
-Plugin 'ntpeters/vim-better-whitespace'
-Plugin 'editorconfig/editorconfig-vim'
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'leafgarland/typescript-vim'
-Plugin 'w0rp/ale'
-Plugin 'vim-airline/vim-airline'
-Plugin 'tpope/vim-fugitive'
-Plugin 'tpope/vim-rhubarb'
-Plugin 'sheerun/vim-polyglot'
-Plugin 'ruanyl/vim-gh-line'
-Plugin 'dracula/vim', {'name':'dracula'}
-Plugin 'junegunn/fzf'
-Plugin 'junegunn/fzf.vim'
+Plugin 'ericroberts/Vundle.vim'
+Plugin 'ericroberts/vim-colors-solarized'
+Plugin 'ericroberts/vim-slim.git'
+Plugin 'ericroberts/vim-better-whitespace'
+Plugin 'ericroberts/editorconfig-vim'
+Plugin 'ericroberts/vim-airline-themes'
+Plugin 'ericroberts/typescript-vim'
+Plugin 'ericroberts/ale'
+Plugin 'ericroberts/vim-airline'
+Plugin 'ericroberts/vim-fugitive'
+Plugin 'ericroberts/vim-rhubarb'
+Plugin 'ericroberts/vim-polyglot'
+Plugin 'ericroberts/vim-gh-line'
+Plugin 'ericroberts/fzf'
+Plugin 'ericroberts/fzf.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
